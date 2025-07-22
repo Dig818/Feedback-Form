@@ -8,10 +8,12 @@ import Dashboard from './pages/Dashboard';
 import Students from './pages/Students';
 import EditStudent from './pages/EditStudent';
 
+
 export default function App() {
   return (
     <Router>
       <div className="min-h-screen bg-gray-100">
+        
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
